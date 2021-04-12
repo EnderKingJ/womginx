@@ -1,44 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+ <link rel="stylesheet" href="index.css">
+  <title>Ludicrous</title>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ludicrous</title>
+    <meta name="description" content="Bypass Internet Filters Put In Place By Schools OR The Work Place" />
+    <meta name="theme-color" content="#0d0d0d" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="index.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="shortcut icon" type="image/png" href="logo.png" />
-    <title>NGINX Proxy</title>
+    </head>
+         <div class="navbar">
+     <button onclick="location.href = '/home';" class="button proxybutton">Home</button>
+<button onclick="location.href = '/surf';" class="button proxybuttonactive">Web Proxies</button>
+<button onclick="location.href = '/play';" class="button proxybutton">Games</button>
+<button onclick="location.href = '/chat';" class="button proxybutton">Chatbox</button>
+<button onclick="location.href = '/credits';" class="button proxybutton">Credits</button>
+<button onclick="location.href = '/settings';" class="button proxybutton">Settings</button>
+</div>
+<pre>
+
+
+
+
+
+
+
+
+
+    <div></pre>
+<img width="200px" height="200px" src="assets/womginx.jpg">
+<h1>Womginx</h1>
+<p class="small">The Fastest Proxy, Made by <br>Binary Person</p>
+</div>
+  <body class="bg">
+<input style="width:200px;" type="text" name="url" class="input proxybutton" id="url" placeholder="https://google.com"><br>
+<button onclick="womginxgo()" class="button proxybutton">Unblock!</button>
+    <head>
+    <script src="assets/surf.js"></script>
+    <script async src="https://arc.io/widget.min.js#Uj7TAd9Q"></script>
 </head>
-
-<body>
-    <div class="container">
-        <img src="logo-full.png" width="250" height="250">
-        <div>
-            <script>
-                function go() {
-                    var input = document.getElementById('url-target');
-                    if (input.value) {
-                        window.open('/main/' + input.value);
-                    } else {
-                        alert('Please provide a link. It does not require https://.');
-                    }
-                }
-            </script>
-            <span class="w3-xlarge">Input your URL here: </span>
-            <div>
-                <input class="w3-xlarge" type='text' placeholder='https://www.google.com' id='url-target'
-                    onkeydown='if(event.key==="Enter") go()' />
-                <button onclick='go()' class="w3-xlarge">Go!</button>
-            </div>
-            <br>
-            <br>
-            </p>
-            <p class="w3-medium">View GitHub source <a class="w3-medium" href="https://github.com/binary-person/womginx">here</a></p>
-        </div>
-    </div>
-</body>
-
+<footer>
+  <br><br><br><br>
+  <p>Made by EnderKingJ and Karlee Rae</p>
+  <a class="github-button" href="https://github.com/TitaniumNetwork-dev/womginx/fork" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork EnderKingJ/VoidNet on GitHub">Fork on Github</a><br>
+  </footer>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
 </html>
