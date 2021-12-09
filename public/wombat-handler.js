@@ -1,6 +1,6 @@
 (function () {
     var proxy_dest_split = window.location.pathname.split(/(?=\/)/);
-    var proxy_prefix = window.location.protocol + "//" + window.location.host;
+    var proxy_prefix = "https://" + window.location.host;
     var proxy_path = proxy_dest_split.shift() + "/";
     var dest_fullurl = proxy_dest_split.join("").slice(1);
     var dest_schemeMatch = dest_fullurl.match(/^[^:]*/);
